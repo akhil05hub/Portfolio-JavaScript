@@ -1,12 +1,12 @@
 {
-  "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "ncp": "^2.0.0"
-  },
+  "name": "Portfolio-JavaScript",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "homepage": "https://akhil05hub.github.io/Portfolio-JavaScript",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "node copy-files.js"
+    "deploy": "gh-pages -d ."
   },
-  "homepage": "https://github.com/akhil05hub/Portfolio-JavaScript"
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
