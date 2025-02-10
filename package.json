@@ -1,0 +1,12 @@
+{
+  "name": "Portfolio-JavaScript",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "homepage": "https://akhil05hub.github.io/Portfolio-JavaScript",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
