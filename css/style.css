@@ -671,6 +671,71 @@ a:hover {
   margin-bottom: 15px;
 }
 
+/* SKILLS IMAGES */
+
+.skills-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Spacing between skills */
+  padding: 20px;
+}
+
+.skill {
+  text-align: center;
+  background: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100px; /* Reduced size */
+  border: 2px solid #ddd;
+}
+
+.skill img {
+  width: 50px; 
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 8px;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  transition: border 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect */
+.skill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.skill:hover img {
+  border: 3px solid #ff5733;
+  transform: rotate(5deg) scale(1.1);
+}
+
+/* Skill Title */
+.skill h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin: 5px 0 0;
+}
+
+/* Responsive - 3 skills per row */
+@media (min-width: 768px) {
+  .skills-box {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .skill {
+    flex: 1 1 calc(33.33% - 30px); /* 3 skills per row */
+    max-width: 100px;
+  }
+}
+
+/* SKILLS IMAGES */
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .skills-box {
