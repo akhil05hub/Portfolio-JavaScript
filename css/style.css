@@ -673,68 +673,70 @@ a:hover {
 
 /* SKILLS IMAGES */
 
+/* SKILLS IMAGES */
+
 .skills-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px; /* Spacing between skills */
+  gap: 20px; 
   padding: 20px;
 }
 
 .skill {
   text-align: center;
   background: #fff;
-  padding: 12px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 8px; /* Reduced padding to make the background smaller */
+  border-radius: 8px; /* Slightly reduced rounded corners */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100px; /* Reduced size */
+  width: 80px; /* Reduced width */
   border: 2px solid #ddd;
 }
 
 .skill img {
-  width: 50px; 
-  height: 50px;
+  width: 45px; /* Adjusted image size */
+  height: 45px;
   object-fit: contain;
-  margin-bottom: 8px;
-  border: 3px solid transparent;
-  border-radius: 8px;
-  transition: border 0.3s ease, transform 0.3s ease;
+  margin-bottom: 6px; /* Reduced spacing */
+  border-radius: 6px;
+  transition: transform 0.3s ease;
 }
 
 /* Hover Effect */
 .skill:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .skill:hover img {
-  border: 3px solid #ff5733;
-  transform: rotate(5deg) scale(1.1);
+  border: 2px solid #ff5733;
+  transform: rotate(5deg) scale(1.05);
 }
 
 /* Skill Title */
 .skill h4 {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   color: #333;
-  margin: 5px 0 0;
+  margin: 4px 0 0;
 }
 
 /* Responsive - 3 skills per row */
 @media (min-width: 768px) {
   .skills-box {
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
   }
 
   .skill {
-    flex: 1 1 calc(33.33% - 30px); /* 3 skills per row */
-    max-width: 100px;
+    flex: 1 1 calc(33.33% - 20px); /* 3 skills per row */
+    max-width: 80px;
   }
 }
 
-/* SKILLS IMAGES */
+
+/* SKILLLS IMAGES */
 
 /* Responsive Design */
 @media (max-width: 768px) {
