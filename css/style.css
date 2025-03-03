@@ -673,22 +673,28 @@ a:hover {
 
 /* SKILLS IMAGES */
 
+/* SKILLS IMAGES */
+
+/* SKILLS IMAGES */
+
+/* SKILLS IMAGES */
+
 .skills-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px; /* Spacing between skills */
+  gap: 30px; 
   padding: 20px;
 }
 
 .skill {
   text-align: center;
   background: #fff;
-  padding: 12px;
+  padding: 8px; /* Reduced padding */
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100px; /* Reduced size */
+  width: 100px; 
   border: 2px solid #ddd;
 }
 
@@ -734,7 +740,8 @@ a:hover {
   }
 }
 
-/* SKILLS IMAGES */
+
+/* SKILLLS IMAGES */
 
 /* Responsive Design */
 @media (max-width: 768px) {
